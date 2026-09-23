@@ -17,7 +17,7 @@ export default function About() {
             <Reveal>
               <figure className="mx-auto mb-4 max-w-xs -rotate-2 rounded-2xl border-2 border-ink bg-card p-3 shadow-[6px_6px_0_0_var(--color-signal)] transition hover:rotate-0 lg:max-w-none">
                 <img
-                  src={profile.photo}
+                  src={import.meta.env.BASE_URL + profile.photo}
                   alt={`Foto ${profile.name}`}
                   width="900"
                   height="1200"

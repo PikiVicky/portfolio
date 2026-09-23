@@ -8,8 +8,8 @@ export const profile = {
   email: 'm.aunurrof@gmail.com',
   // Opsional: isi untuk menampilkan tombol WhatsApp, format 62812xxxxxxx (tanpa + dan 0 di depan).
   whatsapp: '',
-  // Foto di bagian Tentang. File ada di folder public/. Kosongkan untuk menyembunyikan.
-  photo: '/foto.jpg',
+  // Foto di bagian Tentang. File ada di folder public/, tulis tanpa garis miring di depan. Kosongkan untuk menyembunyikan.
+  photo: 'foto.jpg',
   // Repo kode situs ini, tampil sebagai link di footer. Repo harus publik. Kosongkan untuk menyembunyikan link.
   sourceRepo: 'https://github.com/PikiVicky/portfolio',
   // Opsional: kosongkan untuk menyembunyikan tombolnya.
