@@ -125,10 +125,12 @@ export const projects = [
 
 export const skillGroups = [
   { title: 'Web', items: ['PHP', 'JavaScript', 'ExtJS', 'Laravel', 'CodeIgniter', 'React', 'Next.js', 'Node.js', 'Express', 'Tailwind CSS'] },
-  { title: 'Desktop', items: ['Visual Basic', 'Java'] },
-  { title: 'Mobile', items: ['Java (Android)', 'PHP + Laravel (API)'] },
+  { title: 'Desktop', items: ['Visual Basic', 'Java', 'C#', 'C++'] },
+  { title: 'Mobile', items: ['Java (Android)', 'PHP + Laravel (API)', 'Lumen'] },
   { title: 'Database', items: ['Oracle', 'MySQL', 'SQL Server'] },
-  { title: 'Real-time & tools', items: ['Socket.io', 'Git', 'TypeScript', 'Vite'] },
+  { title: 'Real-time & tools', items: ['Socket.io', 'TypeScript', 'Vite'] },
+  { title: 'Version Control', items: ['Git', 'GitHub'] },
+  { title: 'IoT', items: ['Internet of Things'] },
   { title: 'Di luar kode', items: ['Analisa alur teknis', 'Analisa alur proses', 'IT Support', 'Jaringan', 'Hardware', 'Kolaborasi tim'] },
 ]
 
