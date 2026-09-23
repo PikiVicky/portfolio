@@ -20,7 +20,25 @@ export default function App() {
         <Contact />
       </main>
       <footer className="border-t border-ink/10 px-4 py-8 text-center font-mono text-xs text-ink-soft">
-        © {new Date().getFullYear()} {profile.name} · Dibuat dengan React, Vite, dan Tailwind CSS
+        <p>
+          Situs ini saya buat sendiri dengan React 19, Vite, dan Tailwind CSS 4.
+          {profile.sourceRepo && (
+            <>
+              {' '}
+              <a
+                href={profile.sourceRepo}
+                target="_blank"
+                rel="noreferrer"
+                className="font-bold text-ink underline decoration-signal decoration-2 underline-offset-4 transition hover:text-signal-deep"
+              >
+                Lihat kodenya di GitHub
+              </a>
+            </>
+          )}
+        </p>
+        <p className="mt-2">
+          © {new Date().getFullYear()} {profile.name}
+        </p>
       </footer>
     </>
   )

@@ -31,6 +31,19 @@ export default function Contact() {
                 WhatsApp
               </a>
             )}
+            {profile.socials
+              .filter((social) => social.href)
+              .map((social) => (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full border-2 border-paper/60 px-6 py-3 text-sm font-bold transition hover:bg-paper hover:text-ink"
+                >
+                  {social.label}
+                </a>
+              ))}
           </div>
           <p className="mt-6 font-mono text-xs text-paper/50">{profile.location}</p>
         </div>

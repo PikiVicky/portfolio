@@ -8,6 +8,16 @@ export const profile = {
   email: 'm.aunurrof@gmail.com',
   // Opsional: isi untuk menampilkan tombol WhatsApp, format 62812xxxxxxx (tanpa + dan 0 di depan).
   whatsapp: '',
+  // Foto di bagian Tentang. File ada di folder public/. Kosongkan untuk menyembunyikan.
+  photo: '/foto.jpg',
+  // Repo kode situs ini, tampil sebagai link di footer. Repo harus publik. Kosongkan untuk menyembunyikan link.
+  sourceRepo: 'https://github.com/PikiVicky/portfolio',
+  // Opsional: kosongkan untuk menyembunyikan tombolnya.
+  socials: [
+    { label: 'GitHub', href: 'https://github.com/PikiVicky' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/maunurrof/' },
+    { label: 'Instagram', href: 'https://www.instagram.com/pikivickyy/' },
+  ],
   intro:
     'Fullstack developer dengan pengalaman lebih dari 5 tahun. Saya merancang, membangun, dan merawat aplikasi web, desktop, dan mobile, sekaligus menjelaskan hal teknis dengan bahasa yang mudah dipahami.',
 }
